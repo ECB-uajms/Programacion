@@ -1,6 +1,6 @@
 <?php
 
-namespace Gimnasio;
+namespace Futbol;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -9,6 +9,9 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+    public function rols(){
+        return $this->belongsToMany('Futbol\Rol');
+    }
     /**
      * The attributes that are mass assignable.
      *

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gimnasio\Providers;
+namespace Futbol\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

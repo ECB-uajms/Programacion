@@ -14,4 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::resource('/clientes', 'GimnasioController');
+Route::resource('/clubes', 'ClubController');
+Route::resource('/jugadores', 'JugadorController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

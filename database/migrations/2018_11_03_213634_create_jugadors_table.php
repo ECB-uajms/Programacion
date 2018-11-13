@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddDescrpcionClientes extends Migration
+class CreateJugadorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,11 @@ class AddDescrpcionClientes extends Migration
      */
     public function up()
     {
-        Schema::table('clientes', function (Blueprint $table) {
-            $table->string('text');
+        Schema::create('jugadors', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name');
+            $table->string('picture');
+            $table->timestamps();
         });
     }
 
@@ -25,8 +28,6 @@ class AddDescrpcionClientes extends Migration
      */
     public function down()
     {
-        Schema::table('clientes', function (Blueprint $table) {
-            //
-        });
+        Schema::dropIfExists('jugadors');
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Gimnasio\Http\Controllers\Auth;
+namespace Futbol\Http\Controllers\Auth;
 
-use Gimnasio\Http\Controllers\Controller;
+use Futbol\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller
@@ -25,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/clubs';
 
     /**
      * Create a new controller instance.

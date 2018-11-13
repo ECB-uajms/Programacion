@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Gimnasio\User::class,
+            'model' => Futbol\User::class,
         ],
 
         // 'users' => [

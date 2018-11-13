@@ -1,6 +1,6 @@
 <?php
 
-namespace Gimnasio\Providers;
+namespace Futbol\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Gimnasio\Events\Event' => [
-            'Gimnasio\Listeners\EventListener',
+        'Futbol\Events\Event' => [
+            'Futbol\Listeners\EventListener',
         ],
     ];
 

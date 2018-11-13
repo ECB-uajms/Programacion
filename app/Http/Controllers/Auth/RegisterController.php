@@ -1,9 +1,9 @@
 <?php
 
-namespace Gimnasio\Http\Controllers\Auth;
+namespace Futbol\Http\Controllers\Auth;
 
-use Gimnasio\User;
-use Gimnasio\Http\Controllers\Controller;
+use Futbol\User;
+use Futbol\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -27,7 +27,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/clubs';
 
     /**
      * Create a new controller instance.
@@ -58,7 +58,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \Gimnasio\User
+     * @return \Futbol\User
      */
     protected function create(array $data)
     {

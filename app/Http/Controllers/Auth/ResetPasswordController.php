@@ -1,8 +1,8 @@
 <?php
 
-namespace Gimnasio\Http\Controllers\Auth;
+namespace Futbol\Http\Controllers\Auth;
 
-use Gimnasio\Http\Controllers\Controller;
+use Futbol\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

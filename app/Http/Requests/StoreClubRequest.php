@@ -1,10 +1,10 @@
 <?php
 
-namespace Gimnasio\Http\Requests;
+namespace Futbol\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class StoreClienteRequest extends FormRequest
+class StoreClubRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.

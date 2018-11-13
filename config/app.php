@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Gimnasio\Providers\AppServiceProvider::class,
-        Gimnasio\Providers\AuthServiceProvider::class,
-        // Gimnasio\Providers\BroadcastServiceProvider::class,
-        Gimnasio\Providers\EventServiceProvider::class,
-        Gimnasio\Providers\RouteServiceProvider::class,
+        Futbol\Providers\AppServiceProvider::class,
+        Futbol\Providers\AuthServiceProvider::class,
+        // Futbol\Providers\BroadcastServiceProvider::class,
+        Futbol\Providers\EventServiceProvider::class,
+        Futbol\Providers\RouteServiceProvider::class,
 
         /*
          * Laravel Collective Service Providers...

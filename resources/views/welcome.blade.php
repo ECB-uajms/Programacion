@@ -79,12 +79,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    MAR-YEN
+                    FUCHIBOL
                 </div>
 
                 <div class="links">
-                    <a href="/clientes">Clientes</a>
-                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="/clubes">Clubes</a>
+                    <a href="/jugadores">Jugadores</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>

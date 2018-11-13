@@ -1,6 +1,6 @@
 <?php
 
-namespace Gimnasio\Http\Middleware;
+namespace Futbol\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TrimStrings as Middleware;
 
